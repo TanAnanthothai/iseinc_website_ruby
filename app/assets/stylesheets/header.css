@@ -1,0 +1,1691 @@
+/* Header's Hover on */
+
+ @font-face {
+  font-family: 'Stone-Sans-Regular';
+  src: url('fonts/Stone Sans Regular.eot'), url('fonts/Stone Sans Regular.ttf') format('truetype'), url('fonts/Stone Sans Regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+  @font-face {
+  font-family: 'Futura-Light';
+  src: url('fonts/Futura-Light.eot'), url('fonts/Futura-Light.ttf') format('truetype'), url('fonts/Futura-Light.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+  @font-face {
+  font-family: 'FuturaCondensedMedium';
+  src: url('fonts/FuturaCondensedMedium.eot'), url('fonts/FuturaCondensedMedium.ttf') format('truetype'), url('fonts/FuturaCondensedMedium.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+  @font-face {
+  font-family: 'Harabara';
+  src: url('fonts/harabara-webfont.eot'), url('fonts/harabara-webfont.ttf') format('truetype'), url('fonts/harabara-webfont.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+  @font-face {
+  font-family: 'ProximaNova-Light';
+  src: url('fonts/proximanova-light-webfont.eot'), url('fonts/proximanova-light-webfont.ttf') format('truetype'), url('fonts/proximanova-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+/* About Us Font */
+
+  @font-face {
+  font-family: 'Museo300-Regular';
+  src: url('fonts/Museo300-Regular.eot'), url('fonts/Museo300-Regular.ttf') format('truetype'), url('fonts/Museo300-Regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+    @font-face {
+  font-family: 'BonvenoCF-Light';
+  src: url('fonts/BonvenoCF-Light.eot'), url('fonts/BonvenoCF-Light.ttf') format('truetype'), url('fonts/BonvenoCF-Light.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+    @font-face {
+        font-family: 'CartoGothicStd-Book';
+        src: url('fonts/CartoGothicStd-Book.eot'), url('fonts/CartoGothicStd-Book.ttf')     format('truetype'), url('fonts/CartoGothicStd-Book.svg') format('svg');
+        font-weight: normal;
+        font-style: normal;
+  }
+
+
+  @font-face {
+        font-family: 'Lucida_Grande';
+        src: url('fonts/Lucida_Grande.eot'), url('fonts/Lucida_Grande.ttf')     format('truetype'), url('fonts/Lucida_Grande.svg') format('svg');
+        font-weight: normal;
+        font-style: normal;
+  }
+  @font-face {
+        font-family: 'Old_English';
+        src: url('fonts/Lucida_Grande.eot'), url('fonts/Lucida_Grande.ttf')     format('truetype'), url('fonts/Lucida_Grande.svg') format('svg');
+        font-weight: normal;
+        font-style: normal;
+  }
+
+  .bg-maroon{
+      padding: 0;
+      float: auto;
+      text-align: center;
+      background-color: #8f1f22;
+    }
+    .div_header{
+      border: 0;
+      z-index: 100;
+      margin-right: auto;
+      margin-left: auto;
+      padding: 0;
+      float: auto;
+      text-align: center;
+    }
+
+#mainwrapper { 
+        margin: 0; 
+        padding: 0;
+        border: 0;
+        font: 10pt normal Arial, sans-serif;  
+        height: auto;   
+        text-align: center;  
+        width: 100%;  
+    }  
+    #mainwrapper .box {  
+        border: 0;
+        cursor: pointer;  
+        height: auto;  
+        float: left;  
+        margin: 0;  
+        position: relative;  
+        overflow: hidden;  
+        width: 100%;  
+        
+        
+    }  
+  
+    #mainwrapper .box img {  
+        text-align: center;
+        float: auto;
+        vertical-align: center;
+        border: 0;
+        left: 0;  
+        -webkit-transition: all 300ms ease-out;  
+        -moz-transition: all 300ms ease-out;  
+        -o-transition: all 300ms ease-out;  
+        -ms-transition: all 300ms ease-out;  
+        transition: all 300ms ease-out;  
+    }  
+    #mainwrapper .box .caption {  
+        border: 0;
+        background-color: rgba(40,40,40,0.4);  
+        position: absolute;  
+        color: #fff;  
+        z-index: 100;  
+        -webkit-transition: all 300ms ease-out;  
+        -moz-transition: all 300ms ease-out;  
+        -o-transition: all 300ms ease-out;  
+        -ms-transition: all 300ms ease-out;  
+        transition: all 300ms ease-out;  
+        left: 0;  
+    }  
+    #mainwrapper .box .simple-caption {  
+        border: 0;
+        height: 75px;  
+        width: 100%;  
+        display: block;  
+        bottombottom: -30px;  
+        line-height: 25pt;  
+        text-align: center;  
+    }  
+    #mainwrapper .box:hover .simple-caption {  
+         -moz-transform: translateY(-100%);  
+         -o-transform: translateY(-100%);  
+         -webkit-transform: translateY(-100%);  
+         transform: translateY(-100%);  
+    }
+    #image-1{
+        opacity: 0;
+    }  
+
+
+
+
+
+/* Navbar Style */
+  
+  #top-nav{
+    
+    width:123.1%;
+    }
+
+
+  #navbarise{
+    background-color: #282828;
+    border-radius: 0px;
+    font-family: 'Stone-Sans-Regular';
+  }
+
+  #navbarlogo{
+     }
+
+  #navbarfont2{
+    font-size: 25px;
+    color:; 
+    margin-left: em; 
+    padding-left: 0px;
+    padding-right: 0px;
+   
+  }
+
+  #navbarfont5{
+    font-size: 25px;
+    color:; 
+    margin-left: em;
+    padding-left: 0px;
+    padding-right: 0px;
+    
+     }
+
+
+  #navbarlogo{
+    font-size: 25px;
+    color:#ededed; 
+    padding-top: 10px;
+    padding-bottom: 4px;
+    font-family: }
+
+  #no-bottom-margin{
+    margin-bottom: 0px;
+  }  
+
+  #nav.affix {
+    position: fixed;
+    text-align: center;
+    top: 0;
+    left : 4.58%;
+    right: 4.58%;
+    z-index: 100;
+    padding-right: ;
+    padding-left: ;
+    opacity:1;
+    -webkit-transition: all 0.5s ease-in-out; 
+    -moz-transition: all 0.5s ease-in-out; 
+    -o-transition: all 0.5s ease-in-out; 
+  }
+
+
+
+    /* GLOBAL STYLES
+    -------------------------------------------------- */
+    /* Padding below the footer and lighter body text */
+
+    body {
+      /*padding-top: 50px;*/
+      padding-bottom: 0px;
+      color: #5a5a5a;
+      background-color: #ededed;
+    }
+
+    
+ 
+    /* CUSTOMIZE THE NAVBAR
+    -------------------------------------------------- */
+
+    /* Special class on .container surrounding .navbar, used for positioning it into place. */
+    .navbar-wrapper {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 10;
+      margin-top: 20px;
+      margin-bottom: -90px; 
+      /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+    }
+    .navbar-wrapper .navbar {
+
+    }
+
+    /* Remove border and change up box shadow for more contrast */
+    .navbar .navbar-inner {
+      border: 0;
+      -webkit-box-shadow: 0 3px 10px rgba(0,0,0,.70);
+         -moz-box-shadow: 0 3px 10px rgba(0,0,0,.70);
+              box-shadow: 0 3px 10px rgba(0,0,0,.70);
+    }
+
+    /* Downsize the brand/project name a bit */
+    .navbar .brand {
+      padding: 14px 20px 16px; /* Increase vertical padding to match navbar links */
+      font-size: 16px;
+      font-weight: bold;
+      text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+    }
+
+    /* Navbar links: increase padding for taller navbar */
+    .navbar .nav > li > a {
+      padding: 15px 20px;
+    }
+
+    /* Offset the responsive button for proper vertical alignment */
+    .navbar .btn-navbar {
+      margin-top: 10px;
+    }
+
+
+    /* CUSTOMIZE THE CAROUSEL
+    -------------------------------------------------- */
+
+
+    /* Special */
+
+    #carousel-int-con{
+      top: 95%;
+right: 47.9%;
+    }
+    
+
+    /* Carousel base class */
+    .carousel {
+      margin-bottom: 0px;
+    }
+
+    .carousel .container {
+      position: relative;
+      z-index: 9;
+    }
+
+    .carousel-control {
+      height: 80px;
+      margin-top: 0;
+      font-size: 120px;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+      background-color: transparent;
+      border: 0;
+      z-index: 10;
+    }
+
+    .carousel .item {
+      height: 500px;
+    }
+    .carousel img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      height: 500px;
+      max-width: none;
+    }
+
+
+    #carousel-fonts {
+    font-family: Lato;
+
+    }
+    .carousel-caption {
+      
+      background-color:transparent;
+      position: static;
+      max-width: 300px;
+      padding: 0 20px;
+      margin-top: 200px;
+    }
+
+    .carousel-caption2 {
+      
+      background-color:transparent;
+      position: static;
+      
+      padding: 0 20px 0 0;
+      margin-top: 100px;
+      margin-right: 0px;
+    }
+
+    #move-right-float {
+
+        float: right;
+        text-align: left;
+    }
+
+    #move-right{
+        text-align: right;
+
+    }
+
+
+    .nomargin{
+      margin: 0;
+    }
+    .animate-in {
+        left:55%; 
+        opacity:1; 
+        -webkit-transition-delay:.75s; 
+        -moz-transition-delay:.75s; 
+        -o-transition-delay:.75s; 
+        -ms-transition-delay:.75s; 
+        transition-delay:.75s; 
+        -webkit-transition-duration:2s; 
+        -moz-transition-duration:2s; 
+        -o-transition-duration:2s;  
+        -ms-transition-duration:2s; 
+        transition-duration:2s;
+
+    }
+
+    .animate-in-off {
+        -ms-transition-delay:.0s; 
+        -ms-transition-duration:0s;
+    }
+
+    .carousel-caption h1 {
+      padding: 10px;  
+      padding-left: 20px;
+      padding-right: 20px;    
+      text-align: left;
+      font-weight: 400;  
+      font-size: 40px;
+      background-color:rgba(255,255,255,0.76);
+      margin: 0;
+      line-height: 1.25;
+      color: black;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+
+    }
+    .lead {
+      padding: 20px;
+      background-color:rgba(192,57,43,0.76);
+      font-size: 18px;
+      margin: 0;
+      line-height: 1.25;
+      color: #fff;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+    }
+
+    .lead2 {
+      padding: 0px;
+      background-color:transparent;
+      font-size: 18px;
+      margin: 0;
+      line-height: 1.5;
+      color: #282828;
+      font-size: 25px;
+      font-weight: 30;
+
+      
+    }
+    .carousel-caption .btn {
+      margin-top: 10px;
+    }
+
+
+
+    /* MARKETING CONTENT
+    -------------------------------------------------- */
+
+    /* Center align the text within the three columns below the carousel */
+    .marketing .span4 {
+      text-align: center;
+    }
+    .marketing h2 {
+      font-weight: normal;
+    }
+    .marketing .span4 p {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+
+    /* Featurettes
+    ------------------------- */
+
+    .featurette-divider {
+      margin: 80px 0; /* Space out the Bootstrap <hr> more */
+    }
+    .featurette {
+      padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+      overflow: hidden; /* Vertically center images part 2: clear their floats. */
+    }
+    .featurette-image {
+      margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+    }
+
+    /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+    .featurette-image.pull-left {
+      margin-right: 40px;
+    }
+    .featurette-image.pull-right {
+      margin-left: 40px;
+    }
+
+    /* Thin out the marketing headings */
+    .featurette-heading {
+      font-size: 50px;
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -1px;
+    }
+
+
+
+    /* RESPONSIVE CSS
+    -------------------------------------------------- */
+
+    @media (max-width: 979px) {
+
+      .container.navbar-wrapper {
+        margin-bottom: 0;
+        width: auto;
+      }
+      .navbar-inner {
+        border-radius: 0;
+        margin: -20px 0;
+      }
+
+      .carousel .item {
+        height: 400px;
+      }
+      .carousel img {
+        width: auto;
+        height: 400px;
+        min-width: none;
+        max-width: none;
+        margin-left: -30%;
+      }
+
+      .featurette {
+        height: auto;
+        padding: 0;
+      }
+      .featurette-image.pull-left,
+      .featurette-image.pull-right {
+        display: block;
+        float: none;
+        max-width: 40%;
+        margin: 0 auto 20px;
+      }
+
+      .carousel-caption .lead, .carousel-caption .btn {
+      font-size: 13px;
+      }
+      .carousel-caption h1 {
+        font-size: 28px;
+      }
+    }
+
+
+    @media (max-width: 767px) {
+
+      .navbar-inner {
+        margin: -20px;
+      }
+
+      .carousel {
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+      .carousel .container {
+
+      }
+      .carousel .item {
+        height: 300px;
+      }
+      .carousel img {
+        height: 300px;
+      }
+      .carousel-caption {
+        width: 65%;
+        padding: 0 70px;
+        margin-top: 100px;
+      }
+      .carousel-caption h1 {
+        font-size: 24px;
+      }
+      .carousel-caption .lead,
+      .carousel-caption .btn {
+        font-size: 13px;
+      }
+
+      .marketing .span4 + .span4 {
+        margin-top: 40px;
+      }
+
+      .featurette-heading {
+        font-size: 30px;
+      }
+      .lead {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+
+    }
+    
+/*
+    
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="assets/carousel js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons 
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="../assets/ico/favicon.png">
+                                   -->
+
+<!-- ISE Quote 
+===========================-->
+*/
+  .bg-support{
+    width: 100%;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    overflow: hidden;
+    background-color: #ededed;
+    padding-bottom: 20px;
+
+  }
+  .quoterow {
+      margin: auto;
+      text-align: center;
+      background-color: =#ededed;
+      font-family: Arial;
+    }
+  #ISE_Inc {
+    font-family: 'Harabara';
+    font-size: 80px;
+    color: #8f1f22;
+    text-align: center;
+    margin: 5px;
+    padding-bottom: 0px;
+    font-weight: bold;
+    padding-bottom: 5px;
+  } 
+
+  #ISE-quote-bg{
+    background-color: =#ededed;
+    
+  }
+  .normal_wordings {
+    font-family: Harabara;
+    font-size: 20px;
+    color: #8f1f22;
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-weight: bold;
+  }
+  .list-type-cancel ul li{
+      list-style-type: none;
+  }
+/*
+
+
+
+<!--News 
+  ======================-->
+
+*/
+    .news{
+      display: inline; 
+      font-family: Museo300-Regular; 
+      font-size: 60px; 
+      color:#EDECE3;
+
+    }
+
+    .iconpad{
+      padding-top: 33px
+    }
+
+    #more{
+      font-family: Arial; 
+      font-size: 1.5em; 
+      color:#EDECE3; 
+      padding-top: 1em;
+      padding-left: 2em
+    }
+
+    .newspart{
+      background-color: #8F1F22;
+      padding-bottom: 50px;
+    }
+
+    #infoicon{
+      font-size:3em;
+      color:black;
+    }
+
+    #newsdiv{
+      padding-top: .5em;
+      padding-bottom: 1em;
+    }
+
+    .auto-image
+    {
+      width: 100%;
+      height: auto;
+    }
+    
+/*
+  <!-- Overlay Text on Image -->
+*/
+  div.wrapper{  
+    float:left; /* important */  
+    position:relative; /* important(so we can absolutely position the description div */  
+  }  
+
+  div.description{  
+    position:absolute; /* absolute position (so we can position it where we want)*/  
+    bottom:0px; /* position will be on bottom */  
+    left:0px;  
+    width:100%;  
+    /* styling bellow */  
+    background-color:black;  
+    font-family: tahoma;  
+    font-size:15px;  
+    color:white;  
+    opacity:0.6; /* transparency */  
+    filter:alpha(opacity=60); /* IE transparency */ 
+
+    }  
+
+  p.description_content{
+    font-family: tahoma; 
+    font-size:15px;    
+    padding:10px;  
+    margin:0px;  
+    }  
+
+
+.primary-hd{
+  font-size: 19pt;
+  font-family: Museo300-Regular;
+  color: #edece3;
+}
+  #ex3d { line-height: 0px; 
+      color: transparent; 
+      
+    -webkit-transition: all 0.5s ease-in-out; 
+    -moz-transition: all 0.5s ease-in-out; 
+    -o-transition: all 0.5s ease-in-out; 
+    ;}
+
+  #ex3 { 
+      line-height: 100px; 
+      color: #edece3; 
+          -webkit-transition: all 0.5s ease-in-out; 
+    -moz-transition: all 0.5s ease-in-out; 
+    -o-transition: all 0.5s ease-in-out; 
+    font-weight: 700;
+      } 
+
+    #ex3:active { 
+      line-height: 100px; 
+      color: #edece3; 
+      font-weight: 700;
+     
+      }     
+
+  #ex3 img{ 
+    float: left; margin: 0 15px; }
+
+
+/*
+<!--About Us 
+  ======================-->
+*/
+
+.text-center{
+  font-style: italic;
+}
+
+#picture1{
+  padding-left: 0px;
+  height: inherit;
+
+
+}
+.text_section {
+  text-align: left;
+  padding-left:5%;
+}
+.arrow{
+  height: auto;
+  width: 100px;
+  max-width: 130%;
+
+}
+
+.arrowup{
+  margin-bottom: 30px;
+}
+
+.arrowdown{
+  margin-top: 30px;
+
+}
+.who_we_are {
+  color: #8f1f22;
+  font-size: 75px;
+  margin-top: 22.5%;
+  font-family: Museo300-Regular;
+}
+
+.description_text {
+  color: #8f1f22;
+  font-size: 22px;
+  line-height: 55px;
+  margin-top: 40px;
+  font-family: Lucida_Grande;
+}
+
+.detailmargin{
+  margin-top: 20px;
+  line-height: 50px;
+}
+
+.text_section2 {
+  text-align: left;
+  color: #8f1f22;
+  position: absolute;
+  margin: 120px 0 0 0;
+}
+
+.what_we_do {
+  color: #8f1f22;
+  font-size: 75px;
+  margin-top: 20%;
+  font-family: Museo300-Regular;
+}
+
+.description_text2 {
+  font-size: 20px;
+  line-height: 35px;
+  margin-top: 20px;
+  font-family: Lucida_Grande;
+  color:#8f1f22;
+}
+.picture_section2{
+  margin: 0 0 0 800px ;
+  padding: 0;
+  position: relative;
+}
+
+.text_section3 {
+    color: #8f1f22;
+    text-align: left;
+    margin-top: 170px;
+
+}
+
+.forwhom {
+    font-size: 80px;
+    font-family:;
+    margin-bottom: 10px;
+    font-family: Museo300-Regular;
+}
+
+.description_text3 {
+    font-size: 21px;
+    font-family:;
+    line-height: 50px;
+    font-family: Lucida_Grande;
+    
+    color:#8f1f22;
+}
+.aboutusarrow{
+  display: inline;
+  margin-left: 5%;
+  margin-top: 18%;
+}
+
+.imgAboutUs{
+  width: auto;
+  max-height: 100%;
+  max-width: none;
+  height: inherit;
+}
+
+/*
+<!--Meetour Teams
+  ======================-->
+
+  */
+
+    *{
+      margin: 0;
+      padding: 0;
+    }
+
+    .bg-maroon{
+      background-color: #8f1f22;
+      
+    }
+
+    .heading {
+      text-align: center;
+      padding: 2% 13% 13% 10%;
+      font-family:Museo300-Regular  ;
+      font-size: 45pt;
+      color: #edeced;
+      position: relative;
+    }
+    
+    #meet_block1{
+      display: block;
+      margin-left: 6%;
+      
+      
+    }
+
+    #meet_block2{
+      display: inline-block;
+      margin-left: 6
+    }
+            
+    #meet_block3{
+      display: inline-block;
+      margin-left: 6%;
+      
+      
+    }
+
+    #meet_block4{
+      display: inline-block;
+      margin-right: 60px;
+      float:;
+    }
+
+    .set-relative{
+      position: relative;
+      max-width: 0%;
+    }
+
+    .set-absolute{
+      position: absolute;
+    }
+    .arrowmeet{
+      margin-top: 3%;
+    }
+
+    #img1 {
+    opacity: 0.0;
+    transition: opacity 0.6s ease-in-out;
+    -moz-transition: opacity 0.6s ease-in-out;
+    -webkit-transition: opacity 0.6s ease-in-out;
+    }
+    #img1:hover {
+    opacity: 1.0;
+    transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
+    }​
+
+    #img2 {
+    opacity: 0.0;
+    transition: opacity 0.6s ease-in-out;
+    -moz-transition: opacity 0.6s ease-in-out;
+    -webkit-transition: opacity 0.6s ease-in-out;
+    }
+    #img2:hover {
+    opacity: 1.0;
+    transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
+    }​
+
+    #img3 {
+    opacity: 0.0;
+    transition: opacity 0.6s ease-in-out;
+    -moz-transition: opacity 0.6s ease-in-out;
+    -webkit-transition: opacity 0.6s ease-in-out;
+    }
+    #img3:hover {
+    opacity: 1.0;
+    transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
+    }​
+    
+    #img4 {
+    opacity: 0.0;
+    transition: opacity 0.6s ease-in-out;
+    -moz-transition: opacity 0.6s ease-in-out;
+    -webkit-transition: opacity 0.6s ease-in-out;
+    }
+    #img4:hover {
+    opacity: 1.0;
+    transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
+    }​
+
+
+    .mainimg{
+    margin-left: auto;
+    margin-right: auto;
+
+    }
+
+    .hoverimg{
+      margin-top: -255px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+  /*
+  
+  <!--Contact Us
+  ======================-->
+
+  */
+    #contacthead {
+      color:#8F1F22; 
+      font-size:50pt;
+      text-align: center;
+
+      font-family: Museo300-Regular;
+      
+    }
+
+    .contacticon{
+      display:block; 
+      margin-left: auto; 
+      margin-right: auto;
+      margin-top: 30%;
+    }
+
+    .contactinfo{
+      font-family: Lucida_Grande;
+      font-size: 14pt;
+      color: #8F1F22;
+      text-align: center;
+      margin-bottom: 30%;
+    }
+
+    .contactuss{
+      background-color: #ededed
+    }
+    
+  
+/*
+
+<!--Footer
+  ======================-->
+  */
+
+    .footer {
+      position: relative;
+      clear: both;
+      background-color: #282828;
+      width: 100%;
+      height: 200px;
+      margin-bottom: 0px;
+      text-align: center;
+      float: bottom;
+      padding: 0 0 15px 0;
+    }
+    #footer1 {
+      text-align: center;
+      padding-top: 15px;
+      font-weight: 50;
+      color: #ededed;
+      margin-bottom: 0px;
+
+
+    }
+    .footer2 { 
+      font-family: 'Stone-Sans-Regular'
+      text-align: center;
+      padding-top: 0px;
+      font-weight: 500;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      color: #ededed;
+    }
+  /*
+<!-- Special Padding -->
+*/
+
+    #container-sp{
+      padding-top: 50px;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+@media only screen and (min-width: 1600px) {
+
+
+/* Carousel */
+
+
+.carousel-caption {
+background-color: transparent;
+position: static;
+max-width: 350px;
+padding: 0 20px;
+margin-top: 200px;
+}
+/* About Us */
+  .primary-hd{
+    font-size: 24pt;
+    font-family: Museo300-Regular;
+    color: #edece3;
+
+      
+  } 
+  .description_text3 {
+    font-size: 30px;
+    font-family: ;
+    line-height: 40px;
+    font-family: Lucida_Grande;
+    line-height: 60px;
+    color: #8f1f22;
+    
+  }
+
+  .description_text2 {
+    font-size: 28px;
+    line-height: 50px;
+    margin-top: 20px;
+    font-family: Lucida_Grande;
+    color:#8f1f22;
+    
+  }
+
+  .auto-image {
+    width: 400px;
+    height: auto;
+  }
+
+  p.description_content {
+    font-family: tahoma;
+    font-size: 20px;
+    padding: 10px;
+    margin: 0px;
+  }
+
+}
+
+@media only screen and (max-width: 1344px) {
+/*Meet Our Team */
+.heading {
+text-align: center;
+padding: 2% 0% 13% 10%;
+font-family: Museo300-Regular;
+font-size: 45pt;
+color: #edeced;
+position: relative;
+}
+
+
+/* About Us */
+  .primary-hd{
+    font-size: 16pt;
+    font-family: Museo300-Regular;
+    color: #edece3;
+    
+}
+  #ex3{
+    line-height: 80px;
+    font-weight: 700;
+      }
+
+  .description_text3 {
+    font-size: 20px;
+    font-family: ;
+    line-height: 40px;
+    font-family: Lucida_Grande;
+    line-height: 60px;
+    color: #8f1f22;
+  }
+}
+@media only screen and (max-width: 1130px) {
+
+ #top-nav{
+    
+    width:120.9%;
+}
+/* About Us */
+.aboutusarrow {
+  display: inline;
+  margin-left: 5%;
+  margin-top: 18%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.arrow {
+  height: auto;
+  width: 100px;
+  max-width: 100%;}
+
+
+.primary-hd{
+  font-size: 14pt;
+  font-family: Museo300-Regular;
+  color: #edece3;
+
+      
+  }
+  .who_we_are {
+    color: #8f1f22;
+    font-size: 60px;
+    margin-top: 150px;
+    font-family: Museo300-Regular;
+
+
+  }
+  .what_we_do {
+    color: #8f1f22;
+    font-size: 60px;
+    margin-top: 75px;
+    font-family: Museo300-Regular;
+  }
+
+    .text_section {
+    text-align: left;
+    padding-left: 15%;
+  }
+
+  .description_text3 {
+    font-size: 17px;
+    font-family: ;
+    line-height: 40px;
+    font-family: Lucida_Grande;
+    
+    color: #8f1f22;
+    
+  }
+
+  .description_text2 {
+    font-size: 15px;
+    line-height: 30px;
+    margin-top: 20px;
+    font-family: Lucida_Grande;
+    color:#8f1f22;
+    
+  }
+    #ex3{
+      line-height: 65px;
+      font-weight: 700;
+      }
+
+ 
+
+    p.description_content {
+      font-family: tahoma;
+      font-size: 12px;
+      padding: 10px;
+      margin: 0px;  
+  }
+
+        .hoverimg{
+      margin-top: -97%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+}
+
+@media only screen and (max-width: 1010px) {
+
+
+
+  /*Nav Bar*/
+    #top-nav{
+    
+    width:123.1%;
+    }
+
+    #navbarfont2 {
+      font-size: 18px;
+      color: ;
+      margin-left: em;
+      padding-left: 0px;
+      padding-right: 0px;
+    }  
+  #navbarfont5 {
+    font-size: 18px;
+    color: ;
+    margin-left: em;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+
+/* Meet Our Team */
+.heading {
+text-align: center;
+padding: 2% 6.5% 13% 6.5%;
+font-family: Museo300-Regular;
+font-size: 35pt;
+color: #edeced;
+position: relative;
+}
+
+/*Meet Our Team */
+
+
+
+/* Contact Us */
+
+    #contacthead {
+      color:#8F1F22; 
+      font-size:35pt;
+      text-align: center;
+      font-family: Museo300-Regular;
+      
+    }
+
+  /* About */
+
+    .text_section {
+text-align: left;
+padding-left: 18%;
+}
+
+  .who_we_are {
+    color: #8f1f22;
+    font-size: 40px;
+    margin-top: 150px;
+    font-family: Museo300-Regular;
+
+
+  }
+  .what_we_do {
+color: #8f1f22;
+font-size: 40px;
+margin-top: 75px;
+font-family: Museo300-Regular;
+}
+  .description_text3 {
+    font-size: 16px;
+    font-family: ;
+    line-height: 40px;
+    font-family: Lucida_Grande;
+    
+    color: #8f1f22;
+    
+  }
+
+  .description_text2 {
+    font-size: 14px;
+    line-height: 30px;
+    margin-top: 20px;
+    font-family: Lucida_Grande;
+    color:#8f1f22;
+    
+  }
+   .primary-hd{
+      font-size: 10pt;
+      font-family: Museo300-Regular;
+      color: #edece3;
+  }
+  #ex3{
+      line-height: 50px;
+      font-weight: 700;
+      }
+
+    p.description_content {
+      font-family: tahoma;
+      font-size: 12px;
+      padding: 10px;
+      margin: 0px;
+      max-height:50px;
+      overflow: hidden;
+  }
+
+
+}
+
+
+@media only screen and (max-width: 979px) {
+
+  /* Nav Bar */
+
+  #top-nav{
+    margin-top :20px;
+    width:124.3%;
+  }
+  #navbarfont2 {
+    font-size: 18px;
+    color: ;
+    margin-left: em;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-radius: 0px;
+  }  
+  #navbarfont5 {
+    font-size: 18px;
+    color: ;
+    margin-left: em;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-radius: 0px;
+  }
+}
+
+  @media only screen and (max-width: 807px) {
+
+
+     .hoverimg {
+margin-top: -256px;
+margin-left: auto;
+margin-right: auto;
+}
+    /* Navbar */
+
+      #nav.affix{
+    opacity:1;
+    float: right;
+    width:45%;
+    margin-left: auto;
+
+  }
+    .navbar .btn-navbar {
+      margin-bottom: 0px;
+      margin-top: 24px
+    }
+
+    #mobile-con{
+      width: 100%;
+      margin: 0px;
+      float: right;
+    }
+
+
+    #navbarise{
+      background-color: #282828;
+      border-radius: 0px;
+      font-family: 'Stone-Sans-Regular';
+      
+      float: right;
+    }
+  #top-nav{
+    margin-top :0px;
+    width:100%;
+    margin-bottom: 0px;
+  }
+  /*News */  
+  .news {
+    display: inline;
+    font-family: Museo300-Regular;
+    font-size: 60px;
+    color: #EDECE3;
+    margin-left: 15px;
+  }
+
+  .iconpad{
+      padding-top: 0px;
+      padding-left: 10px;
+    }
+
+  .auto-image {
+    width: 200px;
+    height: auto;
+
+  }
+
+    p.description_content {
+    font-family: tahoma;
+    font-size: 10px;
+    padding: 10px;
+    margin: 0px;
+  }
+
+  #newsimg{
+    clear:both;
+    height: 170px;
+    width: 210px;
+    margin-left: 0px;
+  }
+  #ex3 {
+    line-height: 60px;
+    font-weight: 700;
+    margin-top: -350px ;
+    margin-left: 50%;
+    width: 50%;
+     }
+
+   .primary-hd{
+    font-size: 20pt;
+    font-family: Museo300-Regular;
+    color: #edece3;
+
+      }
+    #about-w-bg{
+      min-height: 400px;
+      padding-left:6%;
+    }
+
+    /* About Us*/
+
+    .text_section {
+      text-align: left;
+      padding-left: 5%;
+    }
+    .imgAboutUs{
+      width: 0px;
+      max-height: 100%;
+      max-width: none;
+      opacity: 0;
+      position:fixed;
+      z-index: -1;
+    }
+
+    .who_we_are {
+      color: #8f1f22;
+      font-size: 50px;
+      margin-top: 10px;
+      font-family: Museo300-Regular;
+    }
+
+.what_we_do {
+  color: #8f1f22;
+  font-size: 50px;
+  margin-top: 10px;
+  font-family: Museo300-Regular;
+
+  }
+.description_text3 {
+  font-size: 15px;
+  font-family: ;
+  line-height: 30px;
+  font-family: Lucida_Grande;
+  
+  color: #8f1f22;
+  } 
+
+.description_text2 {
+  font-size: 13px;
+  line-height: 30px;
+  margin-top: 10px;
+  font-family: Lucida_Grande;
+  color: #8f1f22;
+  }  
+.aboutusarrow {
+  display: inline;
+  margin-left: 5%;
+  margin-top: 0%;
+  }
+.detailmargin{
+  margin-top: 10px;
+  }
+
+.arrow{
+  height: auto;
+  width: 10%;
+  margin-right: 45%;
+  margin-left: 45%;
+  }
+
+
+  #picture1{
+    height: 0px;
+    width: 0px;
+    min-height: 0px;
+  }
+  .upsp{
+   
+ } 
+
+  .dnsp{
+    margin-top: -40px;
+  
+ }
+
+ /*header */
+ #mainwrapper .box img {
+  text-align: center;
+  float: auto;
+  vertical-align: center;
+  border: 0;
+  left: 0;
+
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;    
+
+  
+  }
+  .resizehd{
+min-width: 130%;
+height: auto;
+margin-left: -15%;
+margin-right: -15%
+  }
+
+
+ }
+   
+ @media only screen and (max-width: 600px) {
+  /*Header */
+  .resizehd{
+    width:100%;
+    height: auto;
+    
+  }
+ }
+
+/*====== Mobile =====*/
+ @media only screen and (max-width: 480px){ 
+
+  /* Nav Bar */
+      #navbarise{
+      opacity: 0.70;
+      background-color: #282828;
+      border-radius: 0px;
+      font-family: 'Stone-Sans-Regular';
+      width: 100%;
+      float: right;
+
+ }
+
+  #navbarise:hover{
+      opacity: 1;
+      background-color: #282828;
+      border-radius: 0px;
+      font-family: 'Stone-Sans-Regular';
+      width: 100%;
+      float: right;
+
+ }
+
+ /* News */
+      .auto-image {
+      width: 190px;
+      height: auto;
+    }
+
+  .primary-hd{
+    font-size: 14pt;
+    font-family: Museo300-Regular;
+    color: #edece3;
+  }
+
+  #ex3 {
+    line-height: 70px;
+    font-weight: 700;
+    margin-top: -350px;
+    margin-left: 52.5%;
+    width: 50%;
+  }
+
+/* Carousel */
+  .lead{
+    font-size: 0px;
+    background-color: transparent;
+    padding: 0;
+  }
+
+  .carousel-caption .lead,
+      .carousel-caption .btn {
+        font-size: 0px;
+      }
+
+      .carousel-caption {
+width:90%;
+padding: 0 70px;
+margin-top: 220px;
+}
+  .carousel img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: none;
+    max-width: none;
+    height: 300px;
+    margin-left: -30%;
+  }
+
+/* Footer */
+    .footer {
+    padding: 0 0 50px 0;
+  }
+
+}
+
+@media only screen and (max-width: 320px){
+
+
+#ex3 {
+line-height: 70px;
+font-weight: 700;
+margin-top: -270px;
+margin-left: 48%;
+width: 50%;
+}
+
+
+.auto-image {
+width: 140px;
+height: auto;
+}
+
+#newsimg {
+clear: both;
+height: 120px;
+width: 210px;
+margin-left: 0px;
+}
+
+.newspart {
+background-color: #8F1F22;
+padding-bottom: 0px;
+}
+
+}
