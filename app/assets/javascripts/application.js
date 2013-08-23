@@ -11,9 +11,15 @@
 // about supported directives.
 //
 //= require jquery
-//= require jquery_ujs
-//= require jquery.ui.all
 //= require twitter/bootstrap
-//= require flatuipro
-//= require turbolinks
-//= require_tree .
+//= require holder
+//= require modernizr-2.6.2-respond-1.1.0.min
+//= require smoothscroll
+//= require main
+//= require plugins
+// require homepage_javascript
+// require jquery_ujs
+// require jquery.ui.all
+// require flatuipro
+// require turbolinks
+// require_tree .

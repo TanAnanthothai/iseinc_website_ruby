@@ -9,6 +9,13 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require_self
- *= require jquery.ui.all
- *= require_tree .
+ *= require bootstrap
+ *= require bootstrap-responsive
+ *= require flat-ui
+ *= require flat-ui-override
+ *= require header
+
+
+ * require jquery.ui.all
+ * require_tree .
  */
