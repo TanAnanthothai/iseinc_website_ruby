@@ -14,7 +14,7 @@
  *= require flat-ui
  *= require flat-ui-override
  *= require header
-
+ *= require blogs
 
  * require jquery.ui.all
  * require_tree .

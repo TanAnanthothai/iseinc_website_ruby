@@ -1,6 +1,6 @@
 class BlogsController < ApplicationController
   before_action :set_blog, only: [:show, :edit, :update, :destroy]
-  
+  http_basic_authenticate_with :name => "sivabudh@gmail.com", :password => "chulaise", except:[:index, :show] 
 
   def blogs_admin
     @blogs = Blog.all

@@ -1,5 +1,6 @@
 class IseincnewsController < ApplicationController
   before_action :set_iseincnews, only: [:show, :edit, :update, :destroy]
+  http_basic_authenticate_with :name => "sivabudh@gmail.com", :password => "chulaise", except:[:index, :show] 
 
   # GET /iseincnews
   # GET /iseincnews.json
