@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>News</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Loading Bootstrap -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- Loading Flat UI -->
+    <link href="css/flat-ui.css" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+    <![endif]-->
+
+    <style>
+        @font-face {
+        font-family: 'Stone-Sans-Regular';
+        src: url('fonts/Stone Sans Regular.eot'), url('fonts/Stone Sans Regular.ttf') format('truetype'), url('fonts/Stone Sans Regular.svg') format('svg');
+        font-weight: normal;
+        font-style: normal;
+  }
+
+  @font-face {
+        font-family: 'Futura-Light';
+        src: url('fonts/Futura-Light.eot'), url('fonts/Futura-Light.ttf')     format('truetype'), url('fonts/Futura-Light.svg') format('svg');
+        font-weight: normal;
+        font-style: normal;
+  }
+
+  @font-face {
+        font-family: 'Harabara';
+         src: url('fonts/harabara-webfont.eot'), url('fonts/harabara-webfont.ttf') format('truetype'), url('fonts/harabara-webfont.svg') format('svg');
+        font-weight: normal;
+         font-style: normal;
+  }
+
+  @font-face {
+          font-family: 'ProximaNova-Light';
+          src: url('fonts/proximanova-light-webfont.eot'), url('fonts/proximanova-light-webfont.ttf') format('truetype'), url('fonts/proximanova-light-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+  }
+</style>
+
+
+  <!-- Navbar Style -->
+
+<style>
+  
+#top-nav{
+    
+    width:123.1%;
+    }
+
+
+  #navbarise{
+    background-color: #282828;
+    border-radius: 0px;
+    font-family: 'Stone-Sans-Regular';
+  }
+
+  #navbarlogo{
+     }
+
+  #navbarfont2{
+    font-size: 25px;
+    color:; 
+    margin-left: em; 
+    padding-left: 0px;
+    padding-right: 0px;
+   
+  }
+
+  #navbarfont5{
+    font-size: 25px;
+    color:; 
+    margin-left: em;
+    padding-left: 0px;
+    padding-right: 0px;
+    
+     }
+
+
+  #navbarlogo{
+    font-size: 25px;
+    color:#ededed; 
+    padding-top: 10px;
+    padding-bottom: 4px;
+    font-family: }
+
+  #no-bottom-margin{
+    margin-bottom: 0px;
+  }  
+
+  #nav.affix {
+    position: fixed;
+    text-align: center;
+    top: 0;
+    left : 4.58%;
+    right: 4.58%;
+    z-index: 100;
+    padding-right: ;
+    padding-left: ;
+    opacity:1;
+    -webkit-transition: all 0.5s ease-in-out; 
+    -moz-transition: all 0.5s ease-in-out; 
+    -o-transition: all 0.5s ease-in-out; 
+  }
+</style>
+
+
+<style>
+
+    /* GLOBAL STYLES
+    -------------------------------------------------- */
+    /* Padding below the footer and lighter body text */
+
+    body {
+      /*padding-top: 50px;*/
+      padding-bottom: 0px;
+      color: #5a5a5a;
+      background-color: #ededed;
+    }
+
+    
+ 
+/* GLOBAL STYLES
+    -------------------------------------------------- */
+    /* Padding below the footer and lighter body text */
+
+    body {
+      /*padding-top: 50px;*/
+      padding-bottom: 0px;
+      color: #5a5a5a;
+      background-color: #ededed;
+    }
+
+    
+ 
+    /* CUSTOMIZE THE NAVBAR
+    -------------------------------------------------- */
+
+    /* Special class on .container surrounding .navbar, used for positioning it into place. */
+    .navbar-wrapper {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 10;
+      margin-top: 20px;
+      margin-bottom: -90px; 
+      /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+    }
+    .navbar-wrapper .navbar {
+
+    }
+
+    /* Remove border and change up box shadow for more contrast */
+    .navbar .navbar-inner {
+      border: 0;
+      -webkit-box-shadow: 0 3px 10px rgba(0,0,0,.70);
+         -moz-box-shadow: 0 3px 10px rgba(0,0,0,.70);
+              box-shadow: 0 3px 10px rgba(0,0,0,.70);
+    }
+
+    /* Downsize the brand/project name a bit */
+    .navbar .brand {
+      padding: 14px 20px 16px; /* Increase vertical padding to match navbar links */
+      font-size: 16px;
+      font-weight: bold;
+      text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+    }
+
+    /* Navbar links: increase padding for taller navbar */
+    .navbar .nav > li > a {
+      padding: 15px 20px;
+    }
+
+    /* Offset the responsive button for proper vertical alignment */
+    .navbar .btn-navbar {
+      margin-top: 10px;
+    }
+
+
+
+
+
+      /* GLOBAL STYLES
+    --------------------------------------------------
+    /* Padding below the footer and lighter body text */
+/*
+    body {
+      padding-top: 50px;
+      padding-bottom: 40px;
+      color: #5a5a5a;
+      background-color: #8f1f22;
+    }
+*/
+  
+   /**********************************************-*/
+   
+        * {
+             padding: 0 0px 0px 0px;
+             margin: 0;
+             border: 0;
+          }
+        .entirepage {
+            background-color: #8f1f22;
+            padding-bottom: 0px;
+
+        }
+        ul li{
+            list-style-type: none;
+        }
+
+/* CSS for FIRST PART :: Club's News! */
+       .clubnews {
+            font-family: ;
+            text-align: left;
+            font-size: 1.2em;
+            height: 40px;
+            color: #282828;
+            background-color: #ededed;           
+            padding: 0 2em 2em 2em;
+
+        }   
+
+        .redbox {
+
+            width: 100%;
+            
+            font-size: 18pt;
+            border-radius: 10px;
+            background-color: #ededed;
+            color: #ededed;
+            position: relative;
+        }   
+         
+
+        .clubnews_space {
+            padding: 0;
+            margin: 0 0 4% 0;
+        }
+        
+      
+        #news_box {
+            color: #8f1f22;
+            padding: 0;
+            margin: 2em 0 3% 0;
+            border: 0;
+
+        }
+        .news_box_big {
+            color: #8f1f22;
+            padding: 0;
+            margin: 2em 0 3% 0;
+            border: 0;
+
+        }
+       
+        
+
+        .position-relative{
+             position: relative;
+        }
+
+        .position-absolute{
+              position: absolute;
+        }
+        .position-fixed{
+             position: fixed;
+        }
+   
+    .container_margin1 {
+        margin-bottom: 4%;
+        
+    }
+
+    .container_margin2 {
+        margin-bottom: 5%;
+
+    }
+
+    #no_left_margin{
+      margin-left: 0;
+      padding-bottom: 10%;
+      padding-top: 10%;
+    }
+   
+    .footer {
+      position: relative;
+      clear: both;
+      background-color: #282828;
+      width: 100%;
+      height: 215px;
+      margin-bottom: 0px;
+      text-align: center;
+      float: bottom;
+      padding: 0 0 15px 0;
+    }
+
+    #footer1 {
+            text-align: center;
+            padding-top: 30px;
+            font-weight: 50;
+            color: #ededed;
+            margin-bottom: 0px;
+            float: bottom;
+            clear: both;
+        }
+
+    .footer2 {
+            text-align: center;
+            padding-top: 0px;
+            font-weight: 500;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            color: #ededed;
+            float: bottom;
+            clear: both;
+
+        }
+      
+        
+        </style>
+          <!-- Special Padding -->
+<style>
+    #container-sp{
+      padding-top: 0px;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+   
+@media only screen and (max-width: 1130px) {
+
+ #top-nav{
+    
+    width:120.9%;
+  }
+}
+
+@media only screen and (max-width: 1010px) {
+
+
+
+  /*Nav Bar*/
+    #top-nav{
+    
+    width:123.1%;
+    }
+
+    #navbarfont2 {
+      font-size: 18px;
+      color: ;
+      margin-left: em;
+      padding-left: 0px;
+      padding-right: 0px;
+    }  
+  #navbarfont5 {
+    font-size: 18px;
+    color: ;
+    margin-left: em;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+
+}  
+
+
+@media only screen and (max-width: 979px) {
+
+  /* Nav Bar */
+
+  #top-nav{
+    
+    width:124.3%;
+  }
+  #navbarfont2 {
+    font-size: 18px;
+    color: ;
+    margin-left: em;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-radius: 0px;
+  }  
+  #navbarfont5 {
+    font-size: 18px;
+    color: ;
+    margin-left: em;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-radius: 0px;
+  }
+}
+ @media only screen and (max-width: 807px) {
+  /* Navbar */
+
+      #nav.affix{
+    opacity:1;
+    float: right;
+    width:45%;
+    margin-left: auto;
+
+  }
+    .navbar .btn-navbar {
+      margin-bottom: 0px;
+      margin-top: 4px
+    }
+
+    #mobile-con{
+      width: 100%;
+      margin: 0px;
+      float: right;
+    }
+
+
+    #navbarise{
+      background-color: #282828;
+      border-radius: 0px;
+      font-family: 'Stone-Sans-Regular';
+      
+      float: right;
+    }
+  #top-nav{
+    margin-top :0px;
+    width:100%;
+    margin-bottom: 0px;
+  }
+
+}
+
+ @media only screen and (max-width: 480px){ 
+
+/* Nav Bar */
+      #navbarise{
+      opacity: 0.70;
+      background-color: #282828;
+      border-radius: 0px;
+      font-family: 'Stone-Sans-Regular';
+      width: 100%;
+      float: right;
+
+ }
+
+  #navbarise:hover{
+      opacity: 1;
+      background-color: #282828;
+      border-radius: 0px;
+      font-family: 'Stone-Sans-Regular';
+      width: 100%;
+      float: right;
+
+ }
+}
+  @media only screen and (max-width: 960px){ 
+      /*upper part content*/
+        .clubnews{
+            font-family: Old English Text MT, Harabara;
+            text-align: left;
+            font-size: 20pt;
+            height: 40px;        
+            color: #282828;
+            background-color: #ededed;           
+            padding: 15px 10px 0px 10px;
+        }
+        .news_heading p{
+            font-size: 45px;
+            font-family: Lucida Sans Unicode;
+            color: #282828;
+        }
+
+     
+
+    }
+  @media only screen and (max-width: 767px){ 
+      /*upper part content*/
+        .disappearpic{
+            width:0;
+            height:0;
+        }
+        }
+  @media only screen and (max-width: 600px){ 
+      /*upper part content*/
+        .clubnews{
+            font-family: Old English Text MT, Harabara;
+            text-align: center;
+            font-size: 15pt;
+            height: 40px;       
+            color: #282828;
+            background-color: #ededed;           
+            padding: 15px 10px 0px 10px;
+        }
+        .news_heading p{
+            font-size: 30px;
+            font-family: Lucida Sans Unicode;
+            color: #282828;
+        }
+        }
+  @media only screen and (max-width: 1165px){
+   
+  }  
+
+   @media only screen and (max-width: 853px){
+     
+  } 
+  @media only screen and (max-width: 767px){
+        
+        #no_left_margin{
+          margin-left: 0;
+          height: 0px;
+          width: 0px;
+          margin: 0px;
+          min-height: 0px;
+        }
+  }
+  @media only screen and (max-width: 650px){
+      
+   
+  }  
+
+    @media only screen and (max-width: 320px){
+        .footer2 {
+            text-align: center;
+            padding-top: 0px;
+            font-weight: 500;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            color: #ededed;
+            float: bottom;
+            clear: both;
+            font-size: 12px;
+
+        }
+        
+        
+      }
+</style>
+
+<style>
+/*Specail */
+
+#container-spn{
+  padding: 0;
+  margin: 0;
+}
+.show_edit_delete{
+  opacity: 0.6;
+} 
+#blog_title{
+  font-family: Stone-Sans-Regular;
+  font-size: 22px;
+  color: #8f1f22 !important;
+  margin: 0 0 1em 2em;
+  padding: 0;
+}
+#blog_title:hover{
+  color: black !important;
+}
+#blog_content{
+  font-size: 15px;
+  color: #282828;
+  line-height:140%;
+  font-family: sans serif;
+  margin: 0 0 0 4em;
+}
+.between_header_and_blogs{
+  margin-bottom: 6em;
+}
+.between_blogs{
+  margin-bottom: 10em;
+}
+#blog_image img{
+  float: auto;
+  max-width:320px;
+  max-height:180px;
+  text-align: center;
+}
+.headings_linked{
+  border-radius: 10%;
+  display: inline;
+  text-align: center;
+  margin: 1em 0 0 0;
+}
+.headings_linked1:hover{
+   color:#8f1f22;
+}
+.headings_linked2:hover{
+   color:#8f1f22;
+}
+.headings_linked3:hover{
+   color:#8f1f22;
+}
+.centerize{
+  text-align: center;
+}
+
+
+
+</style>  
+ 
+
+</head>
+
+
+<body id="top" class="entirepage">
+
+<a name="">   
+
+
+<div class="news_box_big span12 container-fluid">
+</div> 
+ 
+
+<div id="container-spn" class="container-fluid"> 
+
+  <div id="container-spn" class="row-fluid">
+    
+    <div id="container-spn" class="redbox span12">
+            
+     <!-- Blogs =================================================================-->
+
+                    <div id="#container-spn" class="span11 clubnews">
+                        <div class="span3">
+                        <div><span style="color:#8f1f22;"></span><span style="color:#982b30;"></span><span style="color:#a0373d;"></span><span style="color:#a9434b;"> </span><span style="color:#b14f58;"></span><span style="color:#ba5b66;"></span><span style="color:#c36773;"></span><span style="color:#cb7281;"></span><span style="color:#d47e8e;"> </span><span style="color:#dd8a9c;"></span><span style="color:#e596a9;"></span><span style="color:#eea2b7;"></span><span style="color:#f6aec4;"></span><span style="color:#ffbad2;"></span></div>
+                        
+                        </div>
+                       <div class="offset7 span2" style="font-size:20px">
+                        
+                         <!--
+                         <div class="pagination">
+                              <ul>
+                                <li><a href="#">Prev</a></li>
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li><a href="#">Next</a></li>
+                              </ul>
+                            </div>
+                          -->     
+                       </div>
+                       <div class="headings_linked">
+                              <div class="headings_linked1 headings_linked offset2 span3">
+                                    <a href="iseincnews"> <h4> News </h4></a>   
+                              </div>
+                              <div class="headings_linked2 headings_linked span3">
+                                  <h4>  </h4> 
+                              </div>
+                              <div class="headings_linked3 headings_linked span3">
+                                  <a href="blogs"><h4> Blogs </h4></a> 
+                              </div>
+                          
+                       </div>
+                    </div>
+                     
+
+
+    <!--=========================== Ruby ===================== -->
+
+    <div class="between_header_and_blogs"> </div>
+    
+                <div style="border-bottom: 1px #c0c0c0 solid; width: 75%; margin-left: 12.5%;">
+                
+                </div>
+     <% i = 1 %>
+     <% @iseincnews.reverse_each do |iseincnews| %> 
+     
+        <div id="news_box" class="span12">
+            
+
+            <div class="offset3 span3"> 
+              <div id="blog_image">
+                <%= image_tag iseincnews.image %> 
+              </div>
+              
+              <p class="show_edit_delete"> 
+                <%= time_ago_in_words iseincnews.created_at %> ago   
+              </p>
+            </div>
+
+            <div id="container-spn" >
+
+              <h6 id="blog_title" class="span4"> <%= i %>. <%=h truncate(iseincnews.title, :length => 60) %> </h6>
+               <p id="blog_content" class="span4"> 
+
+                    <%=h truncate(iseincnews.description, :length => 300) %> 
+                    
+                    <br> <br>
+
+                    <span style="color:#8f1f22">
+                       <%= link_to 'Read more', iseincnews %>
+                      ....  -> </span>
+                    
+
+               </p>
+
+            </div>
+
+           
+            <% i = i+1 %>
+            <div class="between_blogs"> </div>
+                <div style="border-bottom: 1px #c0c0c0 solid; width: 65%; margin-left: 20%;">
+                </div>
+       
+         </div> 
+    <% end %>
+    <div style="width: 65%; margin-left: 25%;">
+    </div>
+            <div class="span2">
+              
+                
+                
+
+            </div>
+            <!--
+            <div class="pagination centerize">
+                              <ul>
+                                <li><a href="#">Prev</a></li>
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li><a href="#">Next</a></li>
+                              </ul>
+                            </div>
+        -->
+    </div>
+  </div>
+</div>
+</a>
+<!-- **************** END OF Our News (1st Part)*********************************************** 
+=======================================================-->
+
+
+
+
+
+    
+<!-- Footer
+    ================================================== -->
+<div id="container-sp" class="container-fluid container-spn">     
+  <div class="footer">
+    <div class="container">
+      <h1 id="footer1"> <img src="assets/images/footer icon.png" style="width:80px; height:auto"> </h1>
+        <br>
+      <p class="footer2"> 
+        International School of Engineering </br>
+        Faculty of Engineering, Chulalongkorn University
+      </p>
+    </div>  
+    <p class="pull-right" style="margin-bottom: 0px; margin-right: 1%"><a href="#top">Back to Top</a></p>
+
+            
+        <!--<p>&copy; 2013 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>-->
+      
+  </div>
+</div>  <!-- FOOTER -->
+
+
+    <!-- NavBar 
+  ===============================-->
+
+  <div class="container-fluid affix" data-spy="affix" data-offset-top="0" id="nav">
+    <div id="no-bottom-margin" class="navbar row-fluid" >
+      <div class="navbar-inner" id="navbarise">
+        <div class="container" id="mobile-con">
+
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+
+
+          <div class="nav-collapse collapse">
+              <ul class="nav span11" id="top-nav" >
+
+      <li class="span3">
+        <a class="" id="navbarlogo" href="index#home" style="padding-left: 20px;padding: 0 0 0 0; margin-left: 0px;">
+        <img style="width: auto;height:50px" src="assets/images/navbarmini iseinc icon.png"></a>
+      </li>
+      <!-- Place active for focus on what page -->
+      <li class="span2" style="margin-left: 0px;">
+        <a id="navbarfont5" href="index#News" title="News feed">News Feed</a>
+      </li>
+      <li class="span2 active" style="margin-left: 0px;">
+        <a id="navbarfont2" href="index#AboutUs" title="About Us">About Us</a>
+      </li>
+      <li class="span2" style="margin-left: 0px;">
+        <a id="navbarfont2" href="index#MeetOurTeam" title="Our Team">Our Team</a></li>
+      <li class="span2" style=" margin-left: 0px;">
+        <a id="navbarfont2" href="index#ContactUs" title="Contact Us">Contact Us</a>
+      </li>
+      </ul>
+          </div>
+        </div>
+         
+      </div>
+    </div>
+  </div>
+
+
+</div>
+ 
+
+
+
+
+
+  <script src="js/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
+
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+             $('#top-na').onePageNav({
+                 currentClass: 'active',
+                 changeHash: true,
+                 scrollSpeed: 1300
+            });
+        </script>
+        <script type="text/javascript" src="js/smoothscroll.js"></script>
+    <!-- Le javascri
+
+  
+ 
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="carousel js/jquery.js"></script>
+    <script src="carousel js/bootstrap-transition.js"></script>
+    <script src="carousel js/bootstrap-alert.js"></script>
+    <script src="carousel js/bootstrap-modal.js"></script>
+    <script src="carousel js/bootstrap-dropdown.js"></script>
+    <script src="carousel js/bootstrap-scrollspy.js"></script>
+    <script src="carousel js/bootstrap-tab.js"></script>
+    <script src="carousel js/bootstrap-tooltip.js"></script>
+    <script src="carousel js/bootstrap-popover.js"></script>
+    <script src="carousel js/bootstrap-button.js"></script>
+    <script src="carousel js/bootstrap-collapse2.js"></script>
+    <script src="carousel js/bootstrap-carousel.js"></script>
+    <script src="carousel js/bootstrap-typeahead.js"></script>
+    <script src="carousel js/bootstrap-affix.js"></script>
+    <script>
+      !function ($) {
+        $(function(){
+          // carousel demo
+          $('#myCarousel').carousel()
+        })
+      }(window.jQuery)
+    </script>
+    <script src="carousel js/holder/holder.js"></script>
+    <script>
+     !function ($) {
+        $(function(){
+    $('#nav').affix({
+    });
+    </script>
+      
+
+</body>
+</html>   

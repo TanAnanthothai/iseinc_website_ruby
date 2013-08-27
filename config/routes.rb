@@ -1,13 +1,18 @@
 IseincWebsite::Application.routes.draw do
+  get 'blogs_admin' => 'blogs#blogs_admin'
+  get 'iseincnews_admin' => 'iseincnews#iseincnews_admin'
+  get 'home' => 'static_pages#home'
+  get 'index' => 'static_pages#index100'
+  get 'meetOurTeam' => 'static_pages#meetOurTeam'
+
+  resources :iseincnews
+
   resources :blogs
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
-
-  get 'home' => 'static_pages#home'
-  get 'index100' => 'static_pages#index100'
-
+  
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
 

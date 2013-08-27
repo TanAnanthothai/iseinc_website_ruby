@@ -2,7 +2,7 @@ a {
   color: #282828;
 }
 a:hover {
-  color: #ededed;
+  color: #8f1f22;
 }
 .navbar .nav > li.active > a,
 .navbar .nav > li.active > a:hover,
@@ -17,6 +17,6 @@ a:hover {
 .navbar .nav > li > a:hover,
 .navbar .nav > li > a:focus {
     color: #edece3;
-  background-color: #8f1f22;
+    background-color: #8f1f22;
 }
 
