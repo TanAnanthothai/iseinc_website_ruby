@@ -187,7 +187,7 @@
     padding-left: 0px;
     padding-right: 0px;
     
-     }
+  }
 
 
   #navbarlogo{
@@ -208,8 +208,6 @@
     left : 4.58%;
     right: 4.58%;
     z-index: 100;
-    padding-right: ;
-    padding-left: ;
     opacity:1;
     -webkit-transition: all 0.5s ease-in-out; 
     -moz-transition: all 0.5s ease-in-out; 
@@ -1083,7 +1081,6 @@ margin-top: 200px;
   } 
   .description_text3 {
     font-size: 30px;
-    font-family: ;
     line-height: 40px;
     font-family: Lucida_Grande;
     line-height: 60px;
@@ -1140,7 +1137,6 @@ position: relative;
 
   .description_text3 {
     font-size: 20px;
-    font-family: ;
     line-height: 40px;
     font-family: Lucida_Grande;
     line-height: 60px;
@@ -1197,7 +1193,6 @@ position: relative;
 
   .description_text3 {
     font-size: 17px;
-    font-family: ;
     line-height: 40px;
     font-family: Lucida_Grande;
     
@@ -1247,14 +1242,12 @@ position: relative;
 
     #navbarfont2 {
       font-size: 18px;
-      color: ;
 
       padding-left: 0px;
       padding-right: 0px;
     }  
   #navbarfont5 {
     font-size: 18px;
-    color: ;
     padding-left: 0px;
     padding-right: 0px;
   }
@@ -1307,7 +1300,6 @@ font-family: Museo300-Regular;
 }
   .description_text3 {
     font-size: 16px;
-    font-family: ;
     line-height: 40px;
     font-family: Lucida_Grande;
     
@@ -1356,14 +1348,12 @@ font-family: Museo300-Regular;
   }
   #navbarfont2 {
     font-size: 18px;
-    color: ;
     padding-left: 0px;
     padding-right: 0px;
     border-radius: 0px;
   }  
   #navbarfont5 {
     font-size: 18px;
-    color: ;
     padding-left: 0px;
     padding-right: 0px;
     border-radius: 0px;
@@ -1494,7 +1484,6 @@ margin-right: auto;
   }
 .description_text3 {
   font-size: 15px;
-  font-family: ;
   line-height: 30px;
   font-family: Lucida_Grande;
   

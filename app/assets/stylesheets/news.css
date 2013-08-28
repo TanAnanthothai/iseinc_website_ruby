@@ -76,8 +76,6 @@
     left : 4.58%;
     right: 4.58%;
     z-index: 100;
-    padding-right: ;
-    padding-left: ;
     opacity:1;
     -webkit-transition: all 0.5s ease-in-out; 
     -moz-transition: all 0.5s ease-in-out; 
@@ -188,7 +186,6 @@
 
 /* CSS for FIRST PART :: Club's News! */
        .clubnews {
-            font-family: ;
             text-align: left;
             font-size: 1.2em;
             height: 40px;
@@ -320,14 +317,12 @@
 
     #navbarfont2 {
       font-size: 18px;
-      color: ;
 
       padding-left: 0px;
       padding-right: 0px;
     }  
   #navbarfont5 {
     font-size: 18px;
-    color: ;
     padding-left: 0px;
     padding-right: 0px;
   }
@@ -346,14 +341,12 @@
   }
   #navbarfont2 {
     font-size: 18px;
-    color: ;
     padding-left: 0px;
     padding-right: 0px;
     border-radius: 0px;
   }  
   #navbarfont5 {
     font-size: 18px;
-    color: ;
     padding-left: 0px;
     padding-right: 0px;
     border-radius: 0px;
