@@ -44,18 +44,14 @@
      }
 
   #navbarfont2{
-    font-size: 25px;
-    color:; 
-    margin-left: em; 
+    font-size: 25px;  
     padding-left: 0px;
     padding-right: 0px;
    
   }
 
   #navbarfont5{
-    font-size: 25px;
-    color:; 
-    margin-left: em;
+    font-size: 25px; 
     padding-left: 0px;
     padding-right: 0px;
     
@@ -325,14 +321,13 @@
     #navbarfont2 {
       font-size: 18px;
       color: ;
-      margin-left: em;
+
       padding-left: 0px;
       padding-right: 0px;
     }  
   #navbarfont5 {
     font-size: 18px;
     color: ;
-    margin-left: em;
     padding-left: 0px;
     padding-right: 0px;
   }
@@ -352,7 +347,6 @@
   #navbarfont2 {
     font-size: 18px;
     color: ;
-    margin-left: em;
     padding-left: 0px;
     padding-right: 0px;
     border-radius: 0px;
@@ -360,7 +354,6 @@
   #navbarfont5 {
     font-size: 18px;
     color: ;
-    margin-left: em;
     padding-left: 0px;
     padding-right: 0px;
     border-radius: 0px;
