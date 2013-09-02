@@ -1,4 +1,4 @@
-@font-face {
+  @font-face {
         font-family: 'Stone-Sans-Regular';
         src: url('fonts/Stone Sans Regular.eot'), url('fonts/Stone Sans Regular.ttf') format('truetype'), url('fonts/Stone Sans Regular.svg') format('svg');
         font-weight: normal;
@@ -45,8 +45,7 @@
 
   #navbarfont2{
     font-size: 25px;
-    color:; 
-    margin-left: em; 
+    margin-left: 0; 
     padding-left: 0px;
     padding-right: 0px;
    
@@ -54,8 +53,7 @@
 
   #navbarfont5{
     font-size: 25px;
-    color:; 
-    margin-left: em;
+    margin-left: 0;
     padding-left: 0px;
     padding-right: 0px;
     
@@ -67,7 +65,8 @@
     color:#ededed; 
     padding-top: 10px;
     padding-bottom: 4px;
-    font-family: }
+  }
+    
 
   #no-bottom-margin{
     margin-bottom: 0px;
@@ -80,8 +79,8 @@
     left : 4.58%;
     right: 4.58%;
     z-index: 100;
-    padding-right: ;
-    padding-left: ;
+    padding-right: 0;
+    padding-left: 0;
     opacity:1;
     -webkit-transition: all 0.5s ease-in-out; 
     -moz-transition: all 0.5s ease-in-out; 
@@ -192,7 +191,6 @@
 
 /* CSS for FIRST PART :: Club's News! */
        .clubnews {
-            font-family: ;
             text-align: left;
             font-size: 1.2em;
             height: 40px;
@@ -324,14 +322,12 @@
 
     #navbarfont2 {
       font-size: 18px;
-      color: ;
       margin-left: em;
       padding-left: 0px;
       padding-right: 0px;
     }  
   #navbarfont5 {
     font-size: 18px;
-    color: ;
     margin-left: em;
     padding-left: 0px;
     padding-right: 0px;
@@ -351,15 +347,13 @@
   }
   #navbarfont2 {
     font-size: 18px;
-    color: ;
     margin-left: em;
     padding-left: 0px;
     padding-right: 0px;
     border-radius: 0px;
   }  
   #navbarfont5 {
-    font-size: 18px;
-    color: ;
+    font-size: 18px; 
     margin-left: em;
     padding-left: 0px;
     padding-right: 0px;
