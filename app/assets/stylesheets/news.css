@@ -322,13 +322,13 @@
 
     #navbarfont2 {
       font-size: 18px;
-      margin-left: em;
+      margin-left: 0em;
       padding-left: 0px;
       padding-right: 0px;
     }  
   #navbarfont5 {
     font-size: 18px;
-    margin-left: em;
+    margin-left: 0em;
     padding-left: 0px;
     padding-right: 0px;
   }
@@ -347,14 +347,14 @@
   }
   #navbarfont2 {
     font-size: 18px;
-    margin-left: em;
+    margin-left: 0em;
     padding-left: 0px;
     padding-right: 0px;
     border-radius: 0px;
   }  
   #navbarfont5 {
     font-size: 18px; 
-    margin-left: em;
+    margin-left: 0em;
     padding-left: 0px;
     padding-right: 0px;
     border-radius: 0px;
